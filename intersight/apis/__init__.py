@@ -29,7 +29,6 @@ from intersight.api.cloud_api import CloudApi
 from intersight.api.comm_api import CommApi
 from intersight.api.compute_api import ComputeApi
 from intersight.api.cond_api import CondApi
-from intersight.api.config_api import ConfigApi
 from intersight.api.connectorpack_api import ConnectorpackApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
@@ -77,6 +76,7 @@ from intersight.api.processor_api import ProcessorApi
 from intersight.api.recommendation_api import RecommendationApi
 from intersight.api.recovery_api import RecoveryApi
 from intersight.api.resource_api import ResourceApi
+from intersight.api.resourcepool_api import ResourcepoolApi
 from intersight.api.rproxy_api import RproxyApi
 from intersight.api.sdcard_api import SdcardApi
 from intersight.api.sdwan_api import SdwanApi
