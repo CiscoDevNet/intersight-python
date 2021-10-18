@@ -96,6 +96,7 @@ from intersight.api.task_api import TaskApi
 from intersight.api.techsupportmanagement_api import TechsupportmanagementApi
 from intersight.api.telemetry_api import TelemetryApi
 from intersight.api.terminal_api import TerminalApi
+from intersight.api.terraform_api import TerraformApi
 from intersight.api.thermal_api import ThermalApi
 from intersight.api.top_api import TopApi
 from intersight.api.ucsd_api import UcsdApi
