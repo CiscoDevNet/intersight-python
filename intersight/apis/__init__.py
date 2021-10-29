@@ -30,6 +30,7 @@ from intersight.api.comm_api import CommApi
 from intersight.api.compute_api import ComputeApi
 from intersight.api.cond_api import CondApi
 from intersight.api.connectorpack_api import ConnectorpackApi
+from intersight.api.convergedinfra_api import ConvergedinfraApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
 from intersight.api.equipment_api import EquipmentApi
@@ -73,6 +74,7 @@ from intersight.api.pci_api import PciApi
 from intersight.api.port_api import PortApi
 from intersight.api.power_api import PowerApi
 from intersight.api.processor_api import ProcessorApi
+from intersight.api.rack_api import RackApi
 from intersight.api.recommendation_api import RecommendationApi
 from intersight.api.recovery_api import RecoveryApi
 from intersight.api.resource_api import ResourceApi
@@ -104,6 +106,7 @@ from intersight.api.uuidpool_api import UuidpoolApi
 from intersight.api.virtualization_api import VirtualizationApi
 from intersight.api.vmedia_api import VmediaApi
 from intersight.api.vmrc_api import VmrcApi
+from intersight.api.vnc_api import VncApi
 from intersight.api.vnic_api import VnicApi
 from intersight.api.vrf_api import VrfApi
 from intersight.api.workflow_api import WorkflowApi
