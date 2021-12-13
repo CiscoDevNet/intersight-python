@@ -67,6 +67,7 @@ from intersight.api.niaapi_api import NiaapiApi
 from intersight.api.niatelemetry_api import NiatelemetryApi
 from intersight.api.notification_api import NotificationApi
 from intersight.api.ntp_api import NtpApi
+from intersight.api.oauth_api import OauthApi
 from intersight.api.oprs_api import OprsApi
 from intersight.api.organization_api import OrganizationApi
 from intersight.api.os_api import OsApi
