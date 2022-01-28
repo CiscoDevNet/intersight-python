@@ -651,10 +651,12 @@ except intersight.ApiException as e:
 ```
 
 <a name="triggering-a-workflow"></a>
-## 10. Triggering a Workflow
+## 10. Example : Triggering a Workflow
+Please refer [Triggering a Workflow](https://github.com/cisco-intersight/intersight_python_examples/blob/main/examples/workflow/triggering_workflow.py)
 
 <a name="monitoring-a-workflow"></a>
-## 11. Monitoring a Workflow
+## 11. Example : Monitoring a Workflow
+Please refer [Monitoring a Workflow](https://github.com/cisco-intersight/intersight_python_examples/blob/main/examples/workflow/monitoring_workflow.py)
 
 <a name="debugging"></a>
 ## 12. Debugging
