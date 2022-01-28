@@ -82,7 +82,6 @@ from intersight.api.resource_api import ResourceApi
 from intersight.api.resourcepool_api import ResourcepoolApi
 from intersight.api.rproxy_api import RproxyApi
 from intersight.api.sdcard_api import SdcardApi
-from intersight.api.sdwan_api import SdwanApi
 from intersight.api.search_api import SearchApi
 from intersight.api.security_api import SecurityApi
 from intersight.api.server_api import ServerApi
