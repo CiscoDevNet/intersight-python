@@ -11,34 +11,34 @@ The Cisco Intersight API is a programmatic interface that uses the REST architec
 
 1. [ Installation ](#installation)
 
-	1.1. [ Requirements ](#requirements)
+    1.1. [ Requirements ](#requirements)
 
-	1.2. [ Install ](#install)
+    1.2. [ Install ](#install)
 
 2. [ Authentication ](#authentication)
 3. [ Creating an Object ](#creating-an-object)
 4. [ Creating an Object from JSON ](#creating-an-object-from-json)
 5. [ Reading Objects ](#reading-an-object)
 
-	5.1. [ Reading Objects Using a Filter ](#reading-an-object-using-a-filter)
+    5.1. [ Reading Objects Using a Filter ](#reading-an-object-using-a-filter)
 
 6. [ Updating Objects ](#updating-an-object)
 7. [ Deleting Objects ](#deleting-an-object)
 8. [ Examples](#examples)
 
-	8.1. [ Example - Server Configuration ](#server-configuration)
+    8.1. [ Example - Server Configuration ](#server-configuration)
 
-	8.2. [ Example - Firmware Upgrade ](#firmware-upgrade)
+    8.2. [ Example - Firmware Upgrade ](#firmware-upgrade)
 
-	8.3. [ Example - OS Install ](#os-install)
+    8.3. [ Example - OS Install ](#os-install)
 
 9. [ Targets ](#targets)
 
-	9.1. [ Claiming a Target ](#claiming-a-target)
+    9.1. [ Claiming a Target ](#claiming-a-target)
 
-	9.2. [ Unclaiming a Target ](#unclaiming-a-target)
+    9.2. [ Unclaiming a Target ](#unclaiming-a-target)
 
-	9.3. [ Claiming an Appliance ](#claiming-an-appliance)
+    9.3. [ Claiming an Appliance ](#claiming-an-appliance)
 
 10. [ Triggering a Workflow ](#triggering-a-workflow)
 11. [ Monitoring a Workflow ](#monitoring-a-workflow)
@@ -237,7 +237,7 @@ Create a file data.json with the following content:
         "Enabled":true,
         "Name":"local_cdd"
      },
-	 {
+     {
         "ClassId":"boot.LocalDisk",
         "ObjectType":"boot.LocalDisk",
         "Enabled":true,
@@ -557,7 +557,7 @@ Please refer [OS Install](https://github.com/cisco-intersight/intersight_python_
 
 ```python
 from intersight.api import asset_api
-from intersight.model.asset_target import AssetTarget
+from intersight.model.asset_device_claim import AssetDeviceClaim
 from pprint import pprint
 import intersight
 
@@ -569,7 +569,7 @@ api_client = get_api_client(api_key, api_key_file)
 api_instance = asset_api.AssetApi(api_client)
 
 # AssetTarget | The 'asset.Target' resource to create.
-asset_target = AssetTarget()
+asset_target = AssetDeviceClaim()
 
 # setting claim_code and device_id
 asset_target.security_token = "2Nxxx-int"
