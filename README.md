@@ -111,6 +111,9 @@ def get_api_client(api_key_id, api_secret_file, endpoint="https://intersight.com
             ]
         )
     )
+    
+    # if you want to turn off certificate verification
+    # configuration.verify_ssl = False
 
     return intersight.ApiClient(configuration)
 ```
