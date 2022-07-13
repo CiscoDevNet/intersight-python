@@ -6,7 +6,7 @@
 # raise a `RecursionError`.
 # In order to avoid this, import only the API that you directly need like:
 #
-#   from .api.aaa_api import AaaApi
+#   from intersight.api.aaa_api import AaaApi
 #
 # or import this package, but before doing it, use:
 #
