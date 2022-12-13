@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 NAME = "intersight"
-VERSION = "1.0.11.9661"
+VERSION = "1.0.11.9783"
 REQUIRES = [
   "urllib3 >= 1.25.3",
   "python-dateutil",
