@@ -74,6 +74,7 @@ from intersight.api.openapi_api import OpenapiApi
 from intersight.api.oprs_api import OprsApi
 from intersight.api.organization_api import OrganizationApi
 from intersight.api.os_api import OsApi
+from intersight.api.partnerintegration_api import PartnerintegrationApi
 from intersight.api.pci_api import PciApi
 from intersight.api.port_api import PortApi
 from intersight.api.power_api import PowerApi
