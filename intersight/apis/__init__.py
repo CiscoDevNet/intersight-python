@@ -34,6 +34,7 @@ from intersight.api.console_api import ConsoleApi
 from intersight.api.convergedinfra_api import ConvergedinfraApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
+from intersight.api.electricitymaps_api import ElectricitymapsApi
 from intersight.api.equipment_api import EquipmentApi
 from intersight.api.ether_api import EtherApi
 from intersight.api.externalsite_api import ExternalsiteApi
