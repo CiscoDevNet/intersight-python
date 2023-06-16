@@ -34,7 +34,6 @@ from intersight.api.console_api import ConsoleApi
 from intersight.api.convergedinfra_api import ConvergedinfraApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
-from intersight.api.electricitymaps_api import ElectricitymapsApi
 from intersight.api.equipment_api import EquipmentApi
 from intersight.api.ether_api import EtherApi
 from intersight.api.externalsite_api import ExternalsiteApi
@@ -112,7 +111,6 @@ from intersight.api.view_api import ViewApi
 from intersight.api.virtualization_api import VirtualizationApi
 from intersight.api.vmedia_api import VmediaApi
 from intersight.api.vmrc_api import VmrcApi
-from intersight.api.vnc_api import VncApi
 from intersight.api.vnic_api import VnicApi
 from intersight.api.vrf_api import VrfApi
 from intersight.api.workflow_api import WorkflowApi
