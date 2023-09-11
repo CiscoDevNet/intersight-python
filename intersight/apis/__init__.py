@@ -62,6 +62,7 @@ from intersight.api.macpool_api import MacpoolApi
 from intersight.api.management_api import ManagementApi
 from intersight.api.memory_api import MemoryApi
 from intersight.api.meta_api import MetaApi
+from intersight.api.metrics_api import MetricsApi
 from intersight.api.monitoring_api import MonitoringApi
 from intersight.api.network_api import NetworkApi
 from intersight.api.networkconfig_api import NetworkconfigApi
