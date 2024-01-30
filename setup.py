@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 NAME = "intersight"
-VERSION = "1.0.11.14828"
+VERSION = "1.0.11.14968"
 REQUIRES = [
   "urllib3 >= 1.25.3",
   "python-dateutil",
@@ -21,8 +21,13 @@ setup(
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
     include_package_data=True,
-    license="MIT",
+    license="Apache License 2.0",
     long_description_content_type="text/markdown",
     long_description=open('README.md').read(),
+    classifiers=[
+        "License :: OSI Approved :: Apache Software License",
+        "Natural Language :: English",
+        "Operating System :: OS Independent",
+    ]
 )
 
