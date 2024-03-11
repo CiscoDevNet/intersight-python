@@ -16,6 +16,7 @@
 # Import APIs into API package:
 from intersight.api.aaa_api import AaaApi
 from intersight.api.access_api import AccessApi
+from intersight.api.acme_api import AcmeApi
 from intersight.api.adapter_api import AdapterApi
 from intersight.api.appliance_api import ApplianceApi
 from intersight.api.asset_api import AssetApi
