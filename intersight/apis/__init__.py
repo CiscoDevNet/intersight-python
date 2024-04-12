@@ -61,6 +61,7 @@ from intersight.api.license_api import LicenseApi
 from intersight.api.ls_api import LsApi
 from intersight.api.macpool_api import MacpoolApi
 from intersight.api.management_api import ManagementApi
+from intersight.api.marketplace_api import MarketplaceApi
 from intersight.api.memory_api import MemoryApi
 from intersight.api.meta_api import MetaApi
 from intersight.api.metrics_api import MetricsApi
