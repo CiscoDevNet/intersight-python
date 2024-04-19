@@ -16,7 +16,6 @@
 # Import APIs into API package:
 from intersight.api.aaa_api import AaaApi
 from intersight.api.access_api import AccessApi
-from intersight.api.acme_api import AcmeApi
 from intersight.api.adapter_api import AdapterApi
 from intersight.api.appliance_api import ApplianceApi
 from intersight.api.asset_api import AssetApi
@@ -88,6 +87,7 @@ from intersight.api.recovery_api import RecoveryApi
 from intersight.api.resource_api import ResourceApi
 from intersight.api.resourcepool_api import ResourcepoolApi
 from intersight.api.rproxy_api import RproxyApi
+from intersight.api.scheduler_api import SchedulerApi
 from intersight.api.sdcard_api import SdcardApi
 from intersight.api.search_api import SearchApi
 from intersight.api.security_api import SecurityApi
