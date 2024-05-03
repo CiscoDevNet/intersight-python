@@ -117,3 +117,4 @@ from intersight.api.vmrc_api import VmrcApi
 from intersight.api.vnic_api import VnicApi
 from intersight.api.vrf_api import VrfApi
 from intersight.api.workflow_api import WorkflowApi
+from intersight.api.workspace_api import WorkspaceApi
