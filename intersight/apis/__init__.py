@@ -17,6 +17,7 @@
 from intersight.api.aaa_api import AaaApi
 from intersight.api.access_api import AccessApi
 from intersight.api.adapter_api import AdapterApi
+from intersight.api.apic_api import ApicApi
 from intersight.api.appliance_api import ApplianceApi
 from intersight.api.asset_api import AssetApi
 from intersight.api.bios_api import BiosApi
@@ -34,6 +35,7 @@ from intersight.api.console_api import ConsoleApi
 from intersight.api.convergedinfra_api import ConvergedinfraApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
+from intersight.api.dnac_api import DnacApi
 from intersight.api.equipment_api import EquipmentApi
 from intersight.api.ether_api import EtherApi
 from intersight.api.externalsite_api import ExternalsiteApi
@@ -43,6 +45,7 @@ from intersight.api.fc_api import FcApi
 from intersight.api.fcpool_api import FcpoolApi
 from intersight.api.feedback_api import FeedbackApi
 from intersight.api.firmware_api import FirmwareApi
+from intersight.api.fmc_api import FmcApi
 from intersight.api.forecast_api import ForecastApi
 from intersight.api.graphics_api import GraphicsApi
 from intersight.api.hcl_api import HclApi
@@ -62,6 +65,7 @@ from intersight.api.macpool_api import MacpoolApi
 from intersight.api.management_api import ManagementApi
 from intersight.api.marketplace_api import MarketplaceApi
 from intersight.api.memory_api import MemoryApi
+from intersight.api.meraki_api import MerakiApi
 from intersight.api.meta_api import MetaApi
 from intersight.api.metrics_api import MetricsApi
 from intersight.api.monitoring_api import MonitoringApi
@@ -88,6 +92,7 @@ from intersight.api.resource_api import ResourceApi
 from intersight.api.resourcepool_api import ResourcepoolApi
 from intersight.api.rproxy_api import RproxyApi
 from intersight.api.scheduler_api import SchedulerApi
+from intersight.api.sdaaci_api import SdaaciApi
 from intersight.api.sdcard_api import SdcardApi
 from intersight.api.search_api import SearchApi
 from intersight.api.security_api import SecurityApi
