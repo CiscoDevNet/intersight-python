@@ -97,6 +97,7 @@ from intersight.api.sdcard_api import SdcardApi
 from intersight.api.search_api import SearchApi
 from intersight.api.security_api import SecurityApi
 from intersight.api.server_api import ServerApi
+from intersight.api.servicenow_api import ServicenowApi
 from intersight.api.smtp_api import SmtpApi
 from intersight.api.snmp_api import SnmpApi
 from intersight.api.software_api import SoftwareApi
