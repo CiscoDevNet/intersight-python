@@ -24,6 +24,7 @@ from intersight.api.bios_api import BiosApi
 from intersight.api.boot_api import BootApi
 from intersight.api.bulk_api import BulkApi
 from intersight.api.capability_api import CapabilityApi
+from intersight.api.catalystsdwan_api import CatalystsdwanApi
 from intersight.api.certificatemanagement_api import CertificatemanagementApi
 from intersight.api.chassis_api import ChassisApi
 from intersight.api.cloud_api import CloudApi
