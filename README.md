@@ -80,7 +80,7 @@ import re
 import sys
 
 
-def get_api_client(api_key_id, api_secret_file = None, private_key_string=None, endpoint="https://intersight.com"):
+def get_api_client(api_key_id, api_secret_file = None, private_key_string = None, proxy = None, endpoint="https://intersight.com"):
     if api_secret_file is None and private_key_string is None:
         print("Either api_secret_file or private_key_string is required to create api client")
         sys.exit(1)
@@ -121,6 +121,10 @@ def get_api_client(api_key_id, api_secret_file = None, private_key_string=None, 
     # if you want to turn off certificate verification
     # configuration.verify_ssl = False
 
+    # setting proxy
+    if proxy is not None and proxy != "":
+        configuration.proxy = proxy
+
     return intersight.ApiClient(configuration)
 ```
 
@@ -143,6 +147,32 @@ boot_precision_policy = BootPrecisionPolicy()
 # Create an object in Intersight
 api_response = api_instance.create_boot_precision_policy(boot_precision_policy)    
 ```
+
+Creating API Client with proxy and using it to communicate with the Intersight server.
+```python
+from intersight.api import boot_api
+from intersight.model.boot_precision_policy import BootPrecisionPolicy
+
+api_key_id = "your api_key_id"
+api_secret_file = "path to your api secret file"
+proxy = "your proxy"
+# Creating API Client with proxy
+api_client = get_api_client(api_key_id,
+                            api_secret_file = api_secret_file
+                            proxy = proxy)
+
+# Create an api instance of the correct API type
+api_instance = boot_api.BootApi(api_client)
+
+# Create an object locally and populate the object properties
+boot_precision_policy = BootPrecisionPolicy()
+
+
+# Create an object in Intersight
+api_response = api_instance.create_boot_precision_policy(boot_precision_policy)
+```
+
+
 <a name="creating-an-object"></a>
 ## 3. Creating an Object
 
