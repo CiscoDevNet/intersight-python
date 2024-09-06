@@ -37,6 +37,7 @@ from intersight.api.convergedinfra_api import ConvergedinfraApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
 from intersight.api.dnac_api import DnacApi
+from intersight.api.energy_api import EnergyApi
 from intersight.api.equipment_api import EquipmentApi
 from intersight.api.ether_api import EtherApi
 from intersight.api.externalsite_api import ExternalsiteApi
