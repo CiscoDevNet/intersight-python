@@ -50,7 +50,9 @@ from intersight.api.feedback_api import FeedbackApi
 from intersight.api.firmware_api import FirmwareApi
 from intersight.api.fmc_api import FmcApi
 from intersight.api.forecast_api import ForecastApi
+from intersight.api.functions_api import FunctionsApi
 from intersight.api.graphics_api import GraphicsApi
+from intersight.api.hci_api import HciApi
 from intersight.api.hcl_api import HclApi
 from intersight.api.hyperflex_api import HyperflexApi
 from intersight.api.iaas_api import IaasApi
@@ -124,5 +126,6 @@ from intersight.api.vmedia_api import VmediaApi
 from intersight.api.vmrc_api import VmrcApi
 from intersight.api.vnic_api import VnicApi
 from intersight.api.vrf_api import VrfApi
+from intersight.api.webhook_api import WebhookApi
 from intersight.api.workflow_api import WorkflowApi
 from intersight.api.workspace_api import WorkspaceApi
