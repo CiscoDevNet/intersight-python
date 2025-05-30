@@ -35,6 +35,7 @@ from intersight.api.cond_api import CondApi
 from intersight.api.connectorpack_api import ConnectorpackApi
 from intersight.api.console_api import ConsoleApi
 from intersight.api.convergedinfra_api import ConvergedinfraApi
+from intersight.api.coremanagement_api import CoremanagementApi
 from intersight.api.crd_api import CrdApi
 from intersight.api.deviceconnector_api import DeviceconnectorApi
 from intersight.api.dnac_api import DnacApi
