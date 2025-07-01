@@ -51,7 +51,6 @@ from intersight.api.feedback_api import FeedbackApi
 from intersight.api.firmware_api import FirmwareApi
 from intersight.api.fmc_api import FmcApi
 from intersight.api.forecast_api import ForecastApi
-from intersight.api.functions_api import FunctionsApi
 from intersight.api.graphics_api import GraphicsApi
 from intersight.api.hci_api import HciApi
 from intersight.api.hcl_api import HclApi
