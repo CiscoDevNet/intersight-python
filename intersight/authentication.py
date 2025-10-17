@@ -1,6 +1,7 @@
 import intersight
 import re
 import sys
+import os
 
 def get_api_client(api_key_id, api_secret_file = None, private_key_string = None, proxy = None, endpoint="https://intersight.com"):
     if api_secret_file is None and private_key_string is None:
@@ -9,6 +10,12 @@ def get_api_client(api_key_id, api_secret_file = None, private_key_string = None
     if api_secret_file is not None and private_key_string is not None:
         print("Please provide only one among api_secret_file or private_key_string")
         sys.exit(1)
+
+    if proxy is None:
+        proxy = (os.getenv('HTTP_PROXY') or 
+                os.getenv('http_proxy') or 
+                os.getenv('HTTPS_PROXY') or 
+                os.getenv('https_proxy'))
 
     if api_secret_file is not None: 
         with open(api_secret_file, 'r') as f:
@@ -40,5 +47,7 @@ def get_api_client(api_key_id, api_secret_file = None, private_key_string = None
             ]
         )
     )
+    if proxy:
+        configuration.proxy = proxy
 
     return intersight.ApiClient(configuration)
