@@ -20,6 +20,7 @@ from intersight.api.adapter_api import AdapterApi
 from intersight.api.apic_api import ApicApi
 from intersight.api.appliance_api import ApplianceApi
 from intersight.api.asset_api import AssetApi
+from intersight.api.auditd_api import AuditdApi
 from intersight.api.bios_api import BiosApi
 from intersight.api.boot_api import BootApi
 from intersight.api.bulk_api import BulkApi
