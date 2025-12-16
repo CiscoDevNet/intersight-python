@@ -68,7 +68,6 @@ from intersight.api.license_api import LicenseApi
 from intersight.api.ls_api import LsApi
 from intersight.api.macpool_api import MacpoolApi
 from intersight.api.management_api import ManagementApi
-from intersight.api.marketplace_api import MarketplaceApi
 from intersight.api.memory_api import MemoryApi
 from intersight.api.meraki_api import MerakiApi
 from intersight.api.meta_api import MetaApi
@@ -87,6 +86,7 @@ from intersight.api.organization_api import OrganizationApi
 from intersight.api.os_api import OsApi
 from intersight.api.partnerintegration_api import PartnerintegrationApi
 from intersight.api.pci_api import PciApi
+from intersight.api.pool_api import PoolApi
 from intersight.api.port_api import PortApi
 from intersight.api.power_api import PowerApi
 from intersight.api.processor_api import ProcessorApi
