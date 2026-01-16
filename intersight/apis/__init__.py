@@ -129,4 +129,3 @@ from intersight.api.vrf_api import VrfApi
 from intersight.api.webhook_api import WebhookApi
 from intersight.api.workflow_api import WorkflowApi
 from intersight.api.workload_api import WorkloadApi
-from intersight.api.workspace_api import WorkspaceApi
