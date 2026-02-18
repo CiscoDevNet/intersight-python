@@ -72,6 +72,7 @@ from intersight.api.memory_api import MemoryApi
 from intersight.api.meraki_api import MerakiApi
 from intersight.api.meta_api import MetaApi
 from intersight.api.metrics_api import MetricsApi
+from intersight.api.mgmt_api import MgmtApi
 from intersight.api.monitoring_api import MonitoringApi
 from intersight.api.network_api import NetworkApi
 from intersight.api.networkconfig_api import NetworkconfigApi
@@ -80,6 +81,7 @@ from intersight.api.niatelemetry_api import NiatelemetryApi
 from intersight.api.notification_api import NotificationApi
 from intersight.api.ntp_api import NtpApi
 from intersight.api.oauth_api import OauthApi
+from intersight.api.onprem_api import OnpremApi
 from intersight.api.openapi_api import OpenapiApi
 from intersight.api.oprs_api import OprsApi
 from intersight.api.organization_api import OrganizationApi
