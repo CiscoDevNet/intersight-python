@@ -62,7 +62,6 @@ from intersight.api.ipmioverlan_api import IpmioverlanApi
 from intersight.api.ippool_api import IppoolApi
 from intersight.api.iqnpool_api import IqnpoolApi
 from intersight.api.iwotenant_api import IwotenantApi
-from intersight.api.kubernetes_api import KubernetesApi
 from intersight.api.kvm_api import KvmApi
 from intersight.api.license_api import LicenseApi
 from intersight.api.ls_api import LsApi
