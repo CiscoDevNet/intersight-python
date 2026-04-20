@@ -18,6 +18,7 @@ from intersight.api.aaa_api import AaaApi
 from intersight.api.access_api import AccessApi
 from intersight.api.adapter_api import AdapterApi
 from intersight.api.apic_api import ApicApi
+from intersight.api.apiproxy_api import ApiproxyApi
 from intersight.api.appliance_api import ApplianceApi
 from intersight.api.asset_api import AssetApi
 from intersight.api.auditd_api import AuditdApi
