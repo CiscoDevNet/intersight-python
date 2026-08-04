@@ -17,7 +17,6 @@
 from intersight.api.aaa_api import AaaApi
 from intersight.api.access_api import AccessApi
 from intersight.api.adapter_api import AdapterApi
-from intersight.api.apic_api import ApicApi
 from intersight.api.apiproxy_api import ApiproxyApi
 from intersight.api.appliance_api import ApplianceApi
 from intersight.api.asset_api import AssetApi
@@ -29,6 +28,7 @@ from intersight.api.capability_api import CapabilityApi
 from intersight.api.catalystsdwan_api import CatalystsdwanApi
 from intersight.api.certificatemanagement_api import CertificatemanagementApi
 from intersight.api.chassis_api import ChassisApi
+from intersight.api.cli_api import CliApi
 from intersight.api.cloud_api import CloudApi
 from intersight.api.comm_api import CommApi
 from intersight.api.compute_api import ComputeApi
