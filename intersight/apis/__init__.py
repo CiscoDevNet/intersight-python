@@ -120,6 +120,7 @@ from intersight.api.telemetry_api import TelemetryApi
 from intersight.api.terminal_api import TerminalApi
 from intersight.api.thermal_api import ThermalApi
 from intersight.api.top_api import TopApi
+from intersight.api.topology_api import TopologyApi
 from intersight.api.ucsd_api import UcsdApi
 from intersight.api.uuidpool_api import UuidpoolApi
 from intersight.api.view_api import ViewApi
